@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Ejercicio Cliente-Servidor</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main>
+    <h1>Ejercicio: Enviar datos al servidor de </h1>
+
+    <form id="contactForm">
+      <label>
+        Nombre:<br/>
+        <input type="text" id="nombre" required />
+      </label>
+      <label>
+        Email:<br/>
+        <input type="email" id="email" required />
+      </label>
+      <label>
+        Mensaje:<br/>
+        <textarea id="mensaje"></textarea>
+      </label>
+      <button type="submit">Enviar</button>
+    </form>
+
+    <div id="status" aria-live="polite"></div>
+
+    <section>
+      <h2>Registros recientes</h2>
+      <button id="refreshBtn">Actualizar lista</button>
+      <ul id="listaRegistros"></ul>
+    </section>
+  </main>
+
+  <script src="main.js"></script>
+</body>
+</html>

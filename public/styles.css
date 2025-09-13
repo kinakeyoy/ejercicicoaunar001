@@ -1,0 +1,8 @@
+/* public/styles.css */
+body { font-family: system-ui, sans-serif; margin: 20px; background:#f7f7f8; color:#111 }
+main { max-width:720px; margin:0 auto; background:white; padding:20px; border-radius:8px; box-shadow:0 4px 12px rgba(0,0,0,0.06) }
+label { display:block; margin-bottom:10px; }
+input, textarea { width:100%; padding:8px; margin-top:4px; box-sizing:border-box; }
+button { padding:10px 16px; border-radius:6px; cursor:pointer; margin-top:8px; }
+#status { margin-top:12px; font-weight:600; }
+ul { margin-top:8px; padding-left:18px; }
